@@ -15,12 +15,12 @@ const Feature2 = () => {
           <div
             className="flex-1"
             data-aos="fade-right"
-            data-aos-offset="400"
+          // data-aos-offset="400"
           >
             <img src={image} alt="" />
           </div>
           {/*text */}
-          <div className="flex-1" data-aos="fade-left" data-aos-offset="300">
+          <div className="flex-1" data-aos="fade-left">
             <div className="pretitle">{pretitle}</div>
             <h2 className="title">{title}</h2>
             <p className="lead">{subtitle}</p>
