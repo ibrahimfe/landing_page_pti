@@ -1,11 +1,11 @@
 // import images
-import LogoImg from "../src/assets/img/header/logo.svg";
+import LogoImg from "../src/assets/img/header/logo.png";
 import HeroImg from "../src/assets/img/hero/image.svg";
 import OverviewProductImg from "../src/assets/img/overview/product.png";
-import FacebookImg from "../src/assets/img/overview/brands/shopee.png";
+import ShopeeImg from "../src/assets/img/overview/brands/shopee.png";
 import GoogleImg from "../src/assets/img/overview/brands/google.png";
-import CocaColaImg from "../src/assets/img/overview/brands/kompas.png";
-import LinkedInImg from "../src/assets/img/overview/brands/noice.png";
+import KompasImg from "../src/assets/img/overview/brands/kompas.png";
+import NoiceImg from "../src/assets/img/overview/brands/noice.png";
 import SamsungImg from "../src/assets/img/overview/brands/thenewyorktimes.png";
 import Feature1Img from "../src/assets/img/features/feature1-img.svg";
 import Feature2Img from "../src/assets/img/features/feature2-img.svg";
@@ -41,8 +41,8 @@ export const nav = [
 ];
 
 export const hero = {
-  title: "Track your Expenses to Save Money",
-  subtitle: "Helps you to organize your income and expenses",
+  title: "#1 Web Hosting In The World",
+  subtitle: "Empower Your Digital Journey with Hostking Web Hosting Solutions",
   btnText: "Try free demo",
   compText: "— Web, iOS and Android",
   image: HeroImg,
@@ -52,7 +52,7 @@ export const overview = {
   productImg: OverviewProductImg,
   brands: [
     {
-      image: FacebookImg,
+      image: ShopeeImg,
       delay: 300,
     },
     {
@@ -60,11 +60,11 @@ export const overview = {
       delay: 400,
     },
     {
-      image: CocaColaImg,
+      image: KompasImg,
       delay: 500,
     },
     {
-      image: LinkedInImg,
+      image: NoiceImg,
       delay: 600,
     },
     {
@@ -76,28 +76,28 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: "Alwalys online",
-    title: "Real-time support with cloud",
+    pretitle: "Web hosting stabil & cepat",
+    title: "Pengalaman Web Yang Cepat",
     subtitle:
-      "Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.",
+      "Web hosting kami menawarkan performa yang cepat dan responsif. Dengan web hosting yang cepat, Anda dapat memberikan pengalaman pengguna yang optimal.",
     btnLink: "Learn more",
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
-    pretitle: "Free some cost",
-    title: "Save cost for you and family",
+    pretitle: "Keamanan",
+    title: "Menjamin Keamanan Web Anda",
     subtitle:
-      "Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.",
+      "Memberikan perlindungan keamanan yang kokoh untuk melindungi anda dari serangan malware, hacking, atau ancaman keamanan lainnya. Dengan fitur keamanan yang kuat, data anda aman dan privasi pengunjung situs Anda terjaga.",
     btnLink: "Learn more",
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: "Use anytime",
-    title: "Use anytime when you need",
+    pretitle: "Experience",
+    title: "Pengalaman Pengguna yang Baik",
     subtitle:
-      "Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.",
+      "Anda dapat memberikan pengalaman pengguna yang baik kepada pengunjung situs web kami. Meningkatkan tingkat kepuasan pengguna dan membantu membangun kepercayaan mereka terhadap brand atau organisasi anda",
     btnLink: "Learn more",
     btnIcon: ArrowRightImg,
     image: Feature3Img,
@@ -105,26 +105,28 @@ export const features = {
 };
 
 export const product = {
-  title: "The Product we work with.",
+  title: "Fitur Yang Kami Tawarkan",
   subtitle:
-    "Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.",
+    "Powering Your Online Presence: Unleashing Our Feature-packed Web Hosting Services",
   cards: [
     {
       icon: CardIconImg1,
-      title: "Cross platform",
-      subtitle: "Elit esse cillum dolore eu fugiat nulla pariatur",
+      title: "Maximum Speed",
+      subtitle:
+        "Experience Maximum Speed with Our Cutting-Edge Web Hosting Services",
       delay: 200,
     },
     {
       icon: CardIconImg2,
-      title: "Cloud server",
-      subtitle: "Elit esse cillum dolore eu fugiat nulla pariatur",
+      title: "Full Security",
+      subtitle: "Unleashing Full Security with Our Robust Web Hosting Services",
       delay: 400,
     },
     {
       icon: CardIconImg3,
-      title: "Pure Javascript",
-      subtitle: "Elit esse cillum dolore eu fugiat nulla pariatur",
+      title: "Unlimited Storage",
+      subtitle:
+        "Empower Your Website with Unlimited Storage through Our Web Hosting Services",
       delay: 600,
     },
   ],
@@ -135,11 +137,13 @@ export const pricing = {
   cards: [
     {
       icon: PricingIcon1,
-      title: "Starter Plan",
+      title: "Pelajar",
       services: [
-        { name: "Store unlimited data" },
-        { name: "Export to pdf, xls, csv" },
-        { name: "Cloud server support" },
+        { name: "1 Akun Email" },
+        { name: "Unlimited Bandwith" },
+        { name: "Unlimited Database" },
+        { name: "1 Domain" },
+        { name: "Gratis Sertifikat SSL" },
       ],
       price: "$9.99",
       userAmount: "up to 3 user + 1.99 per user",
@@ -148,11 +152,15 @@ export const pricing = {
     },
     {
       icon: PricingIcon2,
-      title: "Silver Plan",
+      title: "Personal",
       services: [
-        { name: "Store unlimited data" },
-        { name: "Export to pdf, xls, csv" },
-        { name: "Cloud server support" },
+        { name: "Unlimited Akun Email" },
+        { name: "Unlimited Bandwith" },
+        { name: "Unlimited Database" },
+        { name: "Unlimited SSD Disk Space" },
+        { name: "Gratis Domain" },
+        { name: "10 Tambahan Add-On Domain" },
+        { name: "Gratis Sertifikat SSL" },
       ],
       price: "$19.99",
       userAmount: "up to 3 user + 1.99 per user",
@@ -161,11 +169,15 @@ export const pricing = {
     },
     {
       icon: PricingIcon3,
-      title: "Diamond Plan",
+      title: "Enterprise",
       services: [
-        { name: "Store unlimited data" },
-        { name: "Export to pdf, xls, csv" },
-        { name: "Cloud server support" },
+        { name: "Unlimited Akun Email" },
+        { name: "Unlimited Bandwith" },
+        { name: "Unlimited Database" },
+        { name: "Unlimited SSD Disk Space" },
+        { name: "Gratis Domain" },
+        { name: "Unlimited Tambahan Add-On Domain" },
+        { name: "Gratis Sertifikat SSL" },
       ],
       price: "$29.99",
       userAmount: "up to 3 user + 1.99 per user",
@@ -180,51 +192,51 @@ export const testimonials = {
   clients: [
     {
       message:
-        "Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium",
+        "Waduh saya terkejut dengan kecepatan server pada web hosting ini ternyata sangat cepat sekali😱",
       image: AvatarImg1,
-      name: "Cameron Williamson",
-      position: "CEO",
+      name: "Aditya",
+      position: "Freelancer",
       borderColor: "#FF7235",
     },
     {
       message:
-        "Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium",
+        "Hostking dapat diandalkan, ketika web hosting lain sedang mengalami down, Hostking tetap aman dan cepat",
       image: AvatarImg2,
-      name: "Shirley Hand",
-      position: "CEO",
+      name: "Latif Faqih",
+      position: "Product Manager",
       borderColor: "#FFBE21",
     },
     {
       message:
-        "Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium",
+        "Dulu website ku sering diserang oleh hacker, tapi semenjak saya menggunakan web hosting dari Hostking website ku selalu aman dari serangan hacker",
       image: AvatarImg3,
-      name: "Dr. Olivia Hansen",
-      position: "CEO",
+      name: "Alviansyah",
+      position: "Mahasiswa Untirta",
       borderColor: "#4756DF",
     },
     {
       message:
-        "Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium",
+        "Saya sungguh beruntung menemukan web hosting dari Hostking ini, harganya yang murah cocok penggunaan personal seperti saya. Saya sangat merekomendasikan Hostking",
       image: AvatarImg4,
-      name: "Aubrey Sanford",
+      name: "Ibrahim",
       position: "CEO",
       borderColor: "#3EC1F3",
     },
     {
       message:
-        "Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium",
+        "Kecepatan akses pada website yang dihosting oleh Hostking sangat bagus, aku sangat merekomendasikan Hostking sebagai pilihan utama di industri web hosting",
       image: AvatarImg5,
-      name: "Terri Conroy",
-      position: "CEO",
+      name: "Jamal",
+      position: "Pemain Bola",
       borderColor: "#BB7259",
     },
   ],
 };
 
 export const cta = {
-  title: "20M+ downloaded from 32 different countries",
-  subtitle: "Try demo for 7 days with full features.",
-  btnText: "Try free demo",
+  title: "2000+ Web From 32 Different Countries Use Our Services",
+  subtitle: "Get 3 Months Free, Start With $9.99",
+  btnText: "Get Started",
   img1: CtaImg1,
   img2: CtaImg2,
 };
@@ -252,7 +264,7 @@ export const footer = {
   form: {
     placeholder: "Enter your email",
     btnText: "Subscribe",
-    smallText: "We don’t sell your email and spam",
+    smallText: "We don't sell your email and spam",
   },
 };
 

@@ -5,7 +5,7 @@ const Brands = () => {
   const brands = overview.brands;
   return (
     <section className="py-9">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-6">
+      <div className="container mx-auto flex flex-wrap flex-row items-center justify-center lg:justify-between space-y-6 space-x-10">
         {brands.map((brand, index) => (
           <div
             key={index}
