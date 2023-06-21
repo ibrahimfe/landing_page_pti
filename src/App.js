@@ -32,6 +32,7 @@ const App = () => {
       <Overview />
       <Brands />
       <Feature1 />
+      npm start
       <Feature2 />
       <Feature3 />
       <Product />
